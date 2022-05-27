@@ -1,38 +1,120 @@
 .App {
-  text-align: center;
+  width: 100%;
+  background-color: #F0F0F0;
+  padding: 50px 10px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Content{
+  display: table;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 30px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.reg{
+  color:rgb(34, 33, 32);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.login{
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 80px;
+  margin-left: 450px;
+}
+.labels{
+  display: flex;
+  margin: 10px;
+}
+.inputs{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  padding: 10px;
+  background-color: rgb(199, 207, 214);
+  border: none;
+padding-inline-end: 50px;
+}
+.loginheading
+{
+  justify-content: center;
+  font-size: 40px;
+  color:rgb(66, 66, 75);
+  font-family:serif;
+}
+.loginButton{
+  margin: 20px;
+ background-color:  rgb(238, 137, 78);
+  border-radius: 10px;
+  border: none;
+  padding-left: 65px;
+  padding-right: 80px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  cursor: pointer;
+  color: black;
+}
+.RegisterButton
+{
+  margin: 20px;
+ background-color:  rgb(26, 94, 85);
+  border-radius: 10px;
+  border: none;
+  padding-left: 70px;
+  padding-right: 80px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  cursor: pointer;
+  color: white
+}
+.innerregister
+{
+  margin-left: 13px;
+ background-color:  rgb(26, 94, 85);
+  border-radius: 10px;
+  border: none;
+  padding-left: 70px;
+  padding-right: 80px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  cursor: pointer;
+ color: white;
+}
+.innerlogin
+{
+  margin-left: 28px;
+ background-color:  rgb(238, 137, 78);
+  border-radius: 10px;
+  border: none;
+  padding-left: 70px;
+  padding-right: 80px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  cursor: pointer;
+  color: black;
+}
+.Logout{
+  
+ background-color:  rgb(224, 205, 200);
+  border-radius: 10px;
+  border: none;
+  padding-left: 25px;
+  padding-right: 30px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  cursor: pointer;
+  margin-left: 700px;
+  color: black;
+}
+.last{
+  display: flex;
+  flex-direction: row;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+
+
+
+
+

@@ -1,0 +1,31 @@
+.NextStep{
+    background-color: rgb(91, 61, 224);
+    color:#fff;
+    padding: 10px 30px;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.NextStep:hover{
+    background-color: rgb(103, 28, 241)
+}
+.NextStep[disabled]{
+    display: none;   
+}
+.finalPage h1{
+    text-align: center;
+    margin: 15px 0;
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color:#008416;
+    text-transform:none;
+    text-shadow: none;
+
+}
+.final{
+    margin-left: 290px;
+}
+.initial{
+   margin-left: 500px;
+}
